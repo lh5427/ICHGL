@@ -64,8 +64,8 @@ python main.py --dataset tenrec \
 
 
 
-### Validated hyperparameters of MuLe
-We provide the validated hyperparameters of MuLe for each dataset to ensure reproducibility.
+### Validated hyperparameters of ICHGL
+We provide the validated hyperparameters of ICHGL for each dataset to ensure reproducibility.
 
 |Dataset| $\eta$ | $\lambda$ | $L_{\texttt{tide}}$ | $L_{\texttt{light}}$ | $d$ | $T$ | $B$
 |-------|--------|-----------|---------------------|----------------------|-------|-------|-------|
@@ -76,7 +76,7 @@ We provide the validated hyperparameters of MuLe for each dataset to ensure repr
 **Description of each hyperparameter**
 * $\eta$: learning rate of the Adam optimizer (`--lr`)
 * $\lambda$: transfer consistency loss coefficient (`--lambda_con`)
-* $L_{\texttt{tda}}$: number of TDA's layers (`--tide_layers`)
+* $L_{\texttt{tide}}$: number of TIDE's layers (`--tide_layers`)
 * $L_{\texttt{light}}$: number of LightGCN's layers (`--gnn_layers`)
 * $d$: embedding dimension (`--emb_dim`)
 * $T$: number of epochs (`--num_epochs`)
